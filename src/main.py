@@ -5,8 +5,6 @@ import sys
 
 from CalcRating import CalcRating
 from TextDataReader import TextDataReader
-from XmlDataReader import XmlDataReader
-from PrintStudents100 import PrintStudents100
 
 
 def get_path_from_arguments(args) -> str:
