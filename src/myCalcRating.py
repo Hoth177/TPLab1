@@ -7,14 +7,13 @@ class myCalcRating:
     def __init__(self, data: DataType) -> None:
         self.data: DataType = data
 
-
     def calc1(self) -> int:
         self.GoodCount = 0
         for key in self.data:
             for subject in self.data[key]:
                 print(subject)
         return self.GoodCount
-    
+
     def calc(self) -> int:
         goodCount = 0
         for key in self.data:
