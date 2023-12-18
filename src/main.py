@@ -6,6 +6,7 @@ import sys
 from CalcRating import CalcRating
 from TextDataReader import TextDataReader
 from XmlDataReader import XmlDataReader
+from myCalcRating import myCalcRating
 
 
 def get_path_from_arguments(args) -> str:
@@ -27,7 +28,7 @@ def main():
     students2 = xmlReader.read(path)
     print("Students: ", students2, "\n")
 
-    rating = CalcRating(students).calc()
+    rating = myCalcRating(students2).calc()
     print("Rating: ", rating, "\n")
 
 
