@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from src.Types import DataType
-from src.CalcRating import myCalcRating
+from src.myCalcRating import myCalcRating
 import pytest
 
 
